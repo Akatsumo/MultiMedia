@@ -1,0 +1,32 @@
+{
+  "name": "MultiMedia",
+  "description": "A powerful Telegram multimedia bot, they can download social media links",
+  "repository": "https://github.com/Akatsumo/MultiMedia",
+  "keywords": ["telegram", "bot", "multimedia"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot token received from @BotFather",
+      "required": true
+    },
+    "OWNER_IDS": {
+      "description": "Space-separated list of Owner Telegram IDs",
+      "required": true
+    },
+    "MONGO_DB": {
+      "description": "MongoDB connection URI string",
+      "required": true
+    },
+    "CHANNEL_IDS": {
+      "description": "Space-separated list of Channel IDs",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}

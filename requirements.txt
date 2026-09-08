@@ -1,0 +1,7 @@
+pyrofork
+TgCrypto
+hachoir
+yt_dlp
+motor
+aiohttp
+aiofiles
