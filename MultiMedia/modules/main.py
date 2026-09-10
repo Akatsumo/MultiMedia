@@ -14,7 +14,6 @@ FREE_LIMIT = 3
 DOMAIN_MAP = {
     "instagram.com": "instagram",
     "pin.it": "pinterest",
-    "pinterest": "pinterest",
     "reddit.com": "reddit",
     "snapchat.com": "snapchat",
     "facebook.com": "facebook",
